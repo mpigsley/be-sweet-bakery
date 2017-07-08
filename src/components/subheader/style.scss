@@ -1,0 +1,15 @@
+@import "styles/theme";
+
+.SubHeader-Content {
+  color: $medium-font;
+  display: inline-block;
+  font-family: $secondary-font-family;
+  font-size: 2rem;
+  text-align: center;
+  width: 19%;
+}
+	
+.SubHeader-Horizontal {
+  display: inline-block;
+  width: 39.6%;
+}

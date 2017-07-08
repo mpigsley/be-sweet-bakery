@@ -5,12 +5,13 @@ import Ionicon from 'react-ionicons';
 import './style.css';
 
 import Logo from 'components/logo';
+import Horizontal, { HorizontalType } from 'components/horizontal';
 
 export default function Footer() {
   return (
     <footer className="Footer">
       <div className="container">
-        <hr className="Footer-Row" />
+        <Horizontal type={HorizontalType.dark} />
         <div className="row">
           <div className="one-third column Footer-Column">
             <h5 className="Footer-ItemTitle">We Cater</h5>
@@ -22,25 +23,25 @@ export default function Footer() {
           <div className="one-third column Footer-Column">
             <h5 className="Footer-ItemTitle">Contact</h5>
             <p className="Footer-Item">
-              <a className="Footer-Link" href="mailto:besweetomaha@gmail.com" target="_top">besweetomaha@gmail.com</a>
+              <a className="Footer-Link" Horizontalef="mailto:besweetomaha@gmail.com" target="_top">besweetomaha@gmail.com</a>
             </p>
             <p className="Footer-Item">
-              <a className="Footer-Link" href="tel://1-402-658-8810">1-402-658-8810</a>
+              <a className="Footer-Link" Horizontalef="tel://1-402-658-8810">1-402-658-8810</a>
             </p>
           </div>
           <div className="one-third column Footer-Column">
-            <h5 className="Footer-ItemTitle Footer-Connect">Connect</h5>
+            <h5 className="Footer-ItemTitle">Connect</h5>
             <p className="Footer-Item">
-              <a className="Footer-Link" href="https://www.facebook.com/besweetomaha">
+              <a className="Footer-Link" Horizontalef="https://www.facebook.com/besweetomaha">
                 <Ionicon className="Footer-Icon" fontSize="40px" icon="ion-social-facebook" />
               </a>
-              <a className="Footer-Link" href="https://twitter.com/besweetomaha">
+              <a className="Footer-Link" Horizontalef="https://twitter.com/besweetomaha">
                 <Ionicon className="Footer-Icon" fontSize="40px" icon="ion-social-twitter" />
               </a>
             </p>
           </div>
         </div>
-        <hr className="Footer-Row" />
+        <Horizontal type={HorizontalType.dark} />
         <div className="row">
           <div className="Footer-Info five columns">
             <Link className="Footer-Link" to="/about">About</Link>

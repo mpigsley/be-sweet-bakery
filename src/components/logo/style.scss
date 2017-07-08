@@ -1,0 +1,19 @@
+@import "styles/theme";
+
+.Logo {
+	padding: 1.3rem 1.5rem;
+  white-space: nowrap;
+}
+
+.Logo-Name {
+		font-size: 2rem;
+		line-height: 0.8rem;
+		margin: 1.2rem 0 0;
+	}
+	
+.Logo-Cursive {
+  font-size: 2rem;
+  font-family: $secondary-font-family;
+  margin: 0;
+  text-transform: initial;
+}

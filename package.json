@@ -1,0 +1,29 @@
+{
+  "name": "be-sweet-bakery",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "normalize.css": "^7.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router-dom": "^4.1.1",
+    "react-scripts": "1.0.10",
+    "skeleton.css": "^2.0.4"
+  },
+  "devDependencies": {
+    "firebase-tools": "^3.9.1",
+    "node-sass-chokidar": "^0.0.3",
+    "npm-run-all": "^4.0.2"
+  },
+  "scripts": {
+    "start": "npm-run-all -p watch:css start:js",
+    "start:js": "NODE_PATH=src/ react-scripts start",
+    "start:build": "firebase serve",
+    "watch:css": "npm run build:css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
+    "build": "NODE_PATH=src/ npm run build:css && react-scripts build",
+    "build:css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
+    "deploy": "npm run build && firebase deploy",
+    "test": "NODE_PATH=src/ react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

@@ -21,7 +21,7 @@ export default function Horizontal({ type, className }) {
 }
 
 Horizontal.propTypes = {
- type: PropTypes.oneOfType(Object.keys(HorizontalType)),
+ type: PropTypes.oneOf(Object.keys(HorizontalType)),
  className: PropTypes.string,
 };
 

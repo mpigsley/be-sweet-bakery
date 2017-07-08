@@ -1,0 +1,15 @@
+@import "styles/theme";
+
+.Anchor {
+	display: inline-block;
+  padding: 0.2rem;
+  color: $medium-font;
+  text-decoration: none;
+  font-style: italic;
+  transition: color 0.4s;
+  font-weight: 600;
+
+  &:hover {
+    color: $dark-font;
+  }
+}

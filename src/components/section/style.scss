@@ -3,16 +3,25 @@
 .Section {
   padding: 4rem 0;
   text-align: center;
+
+  p {
+    font-size: 1.7rem;
+    padding-top: 2rem;
+  }
 }
 
 .Section-Light {
   background-color: $lightest;
 }
 
+.Section-Medium {
+  background-color: $light-font;
+}
+
 .Section-Dark {
   background-color: $dark;
 
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4, h5, h6, p {
     color: $light-font;
   }
 }

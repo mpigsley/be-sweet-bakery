@@ -7,6 +7,7 @@ import './style.css';
 export const SectionType = {
   light: 'light',
   dark: 'dark',
+  medium: 'medium',
 };
 
 export default function Section({ type, children }) {
@@ -15,6 +16,7 @@ export default function Section({ type, children }) {
       className={classNames('Section', {
         'Section-Light': type === SectionType.light,
         'Section-Dark': type === SectionType.dark,
+        'Section-Medium': type === SectionType.medium,
       })}
     >
       {children}
@@ -23,7 +25,7 @@ export default function Section({ type, children }) {
 }
 
 Section.propTypes = {
- type: PropTypes.oneOfType(Object.keys(SectionType)),
+ type: PropTypes.oneOf(Object.keys(SectionType)),
  children: PropTypes.node.isRequired,
 };
 

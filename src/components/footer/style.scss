@@ -16,19 +16,6 @@
 	text-align: center;
 }
 
-.Footer-Link {
-	display: inline-block;
-  padding: 0.2rem;
-  color: $medium-font;
-  text-decoration: none;
-  font-style: italic;
-  transition: color 0.4s;
-
-  &:hover {
-    color: $dark-font;
-  }
-}
-
 .Footer-Icon {
 	fill: $medium-font;
 	padding: 0 0.3rem;

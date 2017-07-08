@@ -6,6 +6,8 @@ import BigImage from 'components/big-image';
 import SubHeader from 'components/subheader';
 import Section, { SectionType } from 'components/section';
 
+import valentinesCookies from 'images/valentines_cookies.jpg';
+
 export default function Home() {
   return (
     <div>
@@ -18,7 +20,7 @@ export default function Home() {
         </div>
       </Section>
 
-      <BigImage className="Home-Image" />
+      <BigImage src={valentinesCookies} />
 
       <Section type={SectionType.dark}>
         <div className="container">
@@ -32,8 +34,8 @@ export default function Home() {
               <input type="hidden" name="id" value="d8b1ec1ae1" />
               <input
                 type="email"
-                autocapitalize="off"
-                autocorrect="off"
+                autoCapitalize="off"
+                autoCorrect="off"
                 name="MERGE0"
                 id="MERGE0"
                 value=""

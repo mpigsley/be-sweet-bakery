@@ -12,6 +12,7 @@ import Home from 'components/home';
 import About from 'components/about';
 import Gallery from 'components/gallery';
 import Shop from 'components/shop';
+import Footer from 'components/footer';
 
 import 'app.css';
 
@@ -25,6 +26,7 @@ ReactDOM.render(
         <Route exact path="/gallery" component={Gallery} />
         <Route exact path="/shop" component={Shop} />
       </Navigation>
+      <Footer />
     </div>
   </Router>,
   document.getElementById('root')

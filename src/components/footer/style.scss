@@ -1,0 +1,75 @@
+@import "styles/theme";
+
+.Footer {
+	background-color: $light;
+	padding: 4rem 0;
+}
+
+.Footer-Row {
+  border-top: 0.5rem solid $dark;
+  margin: 0;
+}
+
+.Footer-ItemTitle {
+  margin-bottom: 0.8rem;
+  font-weight: 400;
+}
+
+.Footer-Item {
+	color: $medium-font;
+	margin: 0;
+	text-align: center;
+}
+
+.Footer-Link {
+	display: inline-block;
+  padding: 0.2rem;
+  color: $medium-font;
+  text-decoration: none;
+  font-style: italic;
+  transition: color 0.4s;
+
+  &:hover {
+    color: $dark-font;
+  }
+}
+
+.Footer-Icon {
+	fill: $medium-font;
+	padding: 0 0.3rem;
+  transition: fill 0.4s;
+
+  &:hover {
+    fill: $dark-font;
+  }
+}
+
+.Footer-Column {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+  text-align: center;
+}
+
+.Footer-Connect {
+	line-height: 3rem;
+	margin: 0;
+}
+
+.Footer-Info {
+  padding-top: 2.4rem;
+  
+  &:first-of-type {
+    text-align: right;
+  }
+}
+
+.Footer-Spacer {
+  margin: 0 0.6rem;
+}
+
+@media (max-width: 550px) {
+  .Footer-Column,
+  .Footer-Column:first-of-type {
+    text-align: center;
+  }
+}

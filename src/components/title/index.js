@@ -9,7 +9,16 @@ const Title = ({ location }) => {
     return null;
   }
   return (
-    <h1>Be Sweet Bakery</h1>
+    <div className="Title">
+      <div className="Title-Filter">
+        <div className="Title-Container">
+          <div className="content animated fadeInDown">
+            <h1 className="Title-Major">Be Sweet</h1>
+            <h2 className="Title-Minor">····· bakery ·····</h2>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
 

@@ -1,0 +1,34 @@
+@import "styles/theme";
+
+.Title {
+	background-image: url(./title.jpg);
+	background-size: cover;
+	color: $lightest;
+  height: 100vh;
+	text-align: center;
+	width: 100%;
+	z-index: 1;
+}
+
+.Title-Filter {
+  background-color: rgba(50,50,50,0.6);
+  height: 100%;
+  width: 100%;
+}
+	
+.Title-Container {
+  padding: 19rem 0;
+}
+	
+.Title-Major {
+  color: $light-font;
+  font-size: 12rem;
+  line-height: 8rem;
+  margin: 0;
+}
+	
+.Title-Minor {
+  color: $light-font;
+  font-family: $secondary-font-family;
+  margin: 0;
+}

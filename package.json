@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "animate.css": "^3.5.2",
     "normalize.css": "^7.0.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
@@ -17,13 +18,13 @@
   },
   "scripts": {
     "start": "npm-run-all -p watch:css start:js",
-    "start:js": "NODE_PATH=src/ react-scripts start",
+    "start:js": "NODE_PATH=./src react-scripts start",
     "start:build": "firebase serve",
     "watch:css": "npm run build:css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
-    "build": "NODE_PATH=src/ npm run build:css && react-scripts build",
+    "build": "npm run build:css && NODE_PATH=./src react-scripts build",
     "build:css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
     "deploy": "npm run build && firebase deploy",
-    "test": "NODE_PATH=src/ react-scripts test --env=jsdom",
+    "test": "NODE_PATH=./src react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
 }

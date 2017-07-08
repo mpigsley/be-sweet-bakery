@@ -27,6 +27,7 @@
 	transition: background-color 0.3s, color 0.3s;
 	font-weight: 400;
 	vertical-align: top;
+	white-space: nowrap;
 	
 	&:hover {
 		color: $dark;

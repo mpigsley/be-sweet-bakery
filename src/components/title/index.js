@@ -6,8 +6,6 @@ import './style.css';
 
 import colorfulFlowers from 'images/colorful_flowers.jpg';
 
-console.log(colorfulFlowers);
-
 const Title = ({ location }) => {
   if (location.pathname !== '/') {
     return null;

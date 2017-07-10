@@ -38,6 +38,12 @@ export default function Footer() {
               <Anchor href="https://twitter.com/besweetomaha">
                 <Ionicon className="Footer-Icon" fontSize="40px" icon="ion-social-twitter" />
               </Anchor>
+              <Anchor href="https://www.instagram.com/besweetomaha/">
+                <Ionicon className="Footer-Icon" fontSize="40px" icon="ion-social-instagram" />
+              </Anchor>
+              <Anchor href="https://www.etsy.com/shop/BeSweetBakeryOmaha">
+                <Ionicon className="Footer-Icon" fontSize="40px" icon="ion-bag" />
+              </Anchor>
             </p>
           </div>
         </div>

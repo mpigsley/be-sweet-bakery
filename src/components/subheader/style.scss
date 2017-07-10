@@ -13,3 +13,13 @@
   display: inline-block;
   width: 39.6%;
 }
+
+@media (max-width: 950px) {
+  .SubHeader-Content {
+    width: 100%;
+  }
+
+  .SubHeader-Horizontal {
+    display: none;
+  }
+}

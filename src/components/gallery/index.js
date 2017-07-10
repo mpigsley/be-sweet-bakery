@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import GridGallery from 'react-grid-gallery';
 
 import './style.css';

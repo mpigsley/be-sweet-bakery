@@ -120,7 +120,7 @@ export default [
   {
     src: Fiesta,
     thumbnail: Fiesta,
-    thumbnailWidth: 600,
+    thumbnailWidth: 500,
     thumbnailHeight: 400,
   },
   {

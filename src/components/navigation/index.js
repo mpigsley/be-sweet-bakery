@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-import './style.css';
-
 import Logo from 'components/logo';
+
+import './style.css';
 
 export default function Shop({ children }) {
   return (
@@ -13,8 +13,12 @@ export default function Shop({ children }) {
         <div className="container">
           <div className="row Navigation-Row">
             <div className="five columns Navigation-Column">
-              <Link className="Navigation-Link" to="/about">About</Link>
-              <Link className="Navigation-Link" to="/gallery">Gallery</Link>
+              <Link className="Navigation-Link" to="/about">
+                About
+              </Link>
+              <Link className="Navigation-Link" to="/gallery">
+                Gallery
+              </Link>
             </div>
             <div className="two columns Navigation-Column">
               <Link className="Navigation-Logo Navigation-Link" to="/">
@@ -22,7 +26,9 @@ export default function Shop({ children }) {
               </Link>
             </div>
             <div className="five columns Navigation-Column">
-              <Link className="Navigation-Link" to="/shop">Shop & Contact</Link>
+              <Link className="Navigation-Link" to="/shop">
+                Shop & Contact
+              </Link>
             </div>
           </div>
         </div>
@@ -34,4 +40,4 @@ export default function Shop({ children }) {
 
 Shop.propTypes = {
   children: PropTypes.node.isRequired,
-}
+};

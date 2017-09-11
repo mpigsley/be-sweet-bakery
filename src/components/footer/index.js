@@ -1,11 +1,11 @@
 import React from 'react';
 import Ionicon from 'react-ionicons';
 
-import './style.css';
-
 import Logo from 'components/logo';
 import Horizontal, { HorizontalType } from 'components/horizontal';
 import Anchor from 'components/anchor';
+
+import './style.css';
 
 export default function Footer() {
   return (
@@ -15,7 +15,9 @@ export default function Footer() {
         <div className="row">
           <div className="one-third column Footer-Column">
             <h5 className="Footer-ItemTitle">We Cater</h5>
-            <p className="Footer-Item">Available for events and bulk ordering</p>
+            <p className="Footer-Item">
+              Available for events and bulk ordering
+            </p>
             <p className="Footer-Item">
               <Anchor to="/about">Find out more</Anchor>
             </p>
@@ -23,7 +25,9 @@ export default function Footer() {
           <div className="one-third column Footer-Column">
             <h5 className="Footer-ItemTitle">Contact</h5>
             <p className="Footer-Item">
-              <Anchor href="mailto:besweetomaha@gmail.com" target="_top">besweetomaha@gmail.com</Anchor>
+              <Anchor href="mailto:besweetomaha@gmail.com" target="_top">
+                besweetomaha@gmail.com
+              </Anchor>
             </p>
             <p className="Footer-Item">
               <Anchor href="tel://1-402-658-8810">1-402-658-8810</Anchor>
@@ -33,16 +37,32 @@ export default function Footer() {
             <h5 className="Footer-ItemTitle">Connect</h5>
             <p className="Footer-Item">
               <Anchor href="https://www.facebook.com/besweetomaha">
-                <Ionicon className="Footer-Icon" fontSize="40px" icon="ion-social-facebook" />
+                <Ionicon
+                  className="Footer-Icon"
+                  fontSize="40px"
+                  icon="ion-social-facebook"
+                />
               </Anchor>
               <Anchor href="https://twitter.com/besweetomaha">
-                <Ionicon className="Footer-Icon" fontSize="40px" icon="ion-social-twitter" />
+                <Ionicon
+                  className="Footer-Icon"
+                  fontSize="40px"
+                  icon="ion-social-twitter"
+                />
               </Anchor>
               <Anchor href="https://www.instagram.com/besweetomaha/">
-                <Ionicon className="Footer-Icon" fontSize="40px" icon="ion-social-instagram" />
+                <Ionicon
+                  className="Footer-Icon"
+                  fontSize="40px"
+                  icon="ion-social-instagram"
+                />
               </Anchor>
               <Anchor href="https://www.etsy.com/shop/BeSweetBakeryOmaha">
-                <Ionicon className="Footer-Icon" fontSize="40px" icon="ion-bag" />
+                <Ionicon
+                  className="Footer-Icon"
+                  fontSize="40px"
+                  icon="ion-bag"
+                />
               </Anchor>
             </p>
           </div>

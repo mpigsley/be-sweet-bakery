@@ -21,12 +21,12 @@ export default function Section({ type, children }) {
     >
       {children}
     </section>
-  )
+  );
 }
 
 Section.propTypes = {
- type: PropTypes.oneOf(Object.keys(SectionType)),
- children: PropTypes.node.isRequired,
+  type: PropTypes.oneOf(Object.keys(SectionType)),
+  children: PropTypes.node.isRequired,
 };
 
 Section.defaultProps = {

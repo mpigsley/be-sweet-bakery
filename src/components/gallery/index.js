@@ -1,11 +1,11 @@
 import React from 'react';
 import GridGallery from 'react-grid-gallery';
 
-import './style.css';
-
 import SubHeader from 'components/subheader';
 import Section, { SectionType } from 'components/section';
 import PhotoSet from './photo-set';
+
+import './style.css';
 
 export default function Gallery() {
   return (

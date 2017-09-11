@@ -17,14 +17,15 @@ export default function Horizontal({ type, className }) {
         'Horizontal-Dark': type === HorizontalType.dark,
       })}
     />
-  )
+  );
 }
 
 Horizontal.propTypes = {
- type: PropTypes.oneOf(Object.keys(HorizontalType)),
- className: PropTypes.string,
+  type: PropTypes.oneOf(Object.keys(HorizontalType)),
+  className: PropTypes.string,
 };
 
 Horizontal.defaultProps = {
   type: HorizontalType.light,
+  className: null,
 };

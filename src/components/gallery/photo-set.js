@@ -38,162 +38,194 @@ export default [
     thumbnail: BabyShower,
     thumbnailWidth: 600,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: BacheloretteParty,
     thumbnail: BacheloretteParty,
     thumbnailWidth: 600,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: BaconAndEggs,
     thumbnail: BaconAndEggs,
     thumbnailWidth: 600,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: Baseball,
     thumbnail: Baseball,
     thumbnailWidth: 500,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: BirdsAndFlowers,
     thumbnail: BirdsAndFlowers,
     thumbnailWidth: 600,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: BirdsAndNests,
     thumbnail: BirdsAndNests,
     thumbnailWidth: 600,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: Birthday,
     thumbnail: Birthday,
     thumbnailWidth: 600,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: Cars,
     thumbnail: Cars,
     thumbnailWidth: 600,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: ColorfulFlowers,
     thumbnail: ColorfulFlowers,
     thumbnailWidth: 600,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: Country,
     thumbnail: Country,
     thumbnailWidth: 600,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: Crowns,
     thumbnail: Crowns,
     thumbnailWidth: 600,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: Dancing,
     thumbnail: Dancing,
     thumbnailWidth: 600,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: DressThankYou,
     thumbnail: DressThankYou,
     thumbnailWidth: 300,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: FallLeaves,
     thumbnail: FallLeaves,
     thumbnailWidth: 500,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: Fiesta,
     thumbnail: Fiesta,
     thumbnailWidth: 600,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: FirstBirthday,
     thumbnail: FirstBirthday,
     thumbnailWidth: 600,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: Fishing,
     thumbnail: Fishing,
     thumbnailWidth: 500,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: Forest,
     thumbnail: Forest,
     thumbnailWidth: 600,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: Graduation,
     thumbnail: Graduation,
     thumbnailWidth: 600,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: Grills,
     thumbnail: Grills,
     thumbnailWidth: 600,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: Halloween,
     thumbnail: Halloween,
     thumbnailWidth: 400,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: HomeSweetHome,
     thumbnail: HomeSweetHome,
     thumbnailWidth: 400,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: Jerseys,
     thumbnail: Jerseys,
     thumbnailWidth: 600,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: Martinis,
     thumbnail: Martinis,
     thumbnailWidth: 600,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: MermaidsAndSeahorses,
     thumbnail: MermaidsAndSeahorses,
     thumbnailWidth: 600,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: Mermaids,
     thumbnail: Mermaids,
     thumbnailWidth: 600,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: MultiFlowers,
     thumbnail: MultiFlowers,
     thumbnailWidth: 500,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: SpringFlowers,
     thumbnail: SpringFlowers,
     thumbnailWidth: 600,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: Tacos,
     thumbnail: Tacos,
     thumbnailWidth: 600,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: TeaCups,
     thumbnail: TeaCups,
     thumbnailWidth: 500,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: TeaParty,
     thumbnail: TeaParty,
     thumbnailWidth: 600,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: Valentines,
     thumbnail: Valentines,
     thumbnailWidth: 700,
     thumbnailHeight: 400,
-  }, {
+  },
+  {
     src: WeddingShower,
     thumbnail: WeddingShower,
     thumbnailWidth: 600,

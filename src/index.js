@@ -1,11 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {
-  BrowserRouter as Router,
-  Route,
-} from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import registerServiceWorker from 'registerServiceWorker';
 import Title from 'components/title';
 import Navigation from 'components/navigation';
 import Home from 'components/home';
@@ -29,7 +25,5 @@ ReactDOM.render(
       <Footer />
     </div>
   </Router>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
-
-registerServiceWorker();

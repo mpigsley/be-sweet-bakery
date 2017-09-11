@@ -2,16 +2,19 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 
-import './style.css';
-
 import colorfulFlowers from 'images/colorful_flowers.jpg';
+
+import './style.css';
 
 const Title = ({ location }) => {
   if (location.pathname !== '/') {
     return null;
   }
   return (
-    <div className="Title" style={{ backgroundImage: `url(${colorfulFlowers})` }}>
+    <div
+      className="Title"
+      style={{ backgroundImage: `url(${colorfulFlowers})` }}
+    >
       <div className="Title-Filter">
         <div className="Title-Container">
           <div className="content animated fadeInDown">
@@ -22,12 +25,12 @@ const Title = ({ location }) => {
       </div>
     </div>
   );
-}
+};
 
 Title.propTypes = {
   location: PropTypes.shape({
     pathname: PropTypes.string.isRequired,
-  }),
+  }).isRequired,
 };
 
 export default withRouter(Title);

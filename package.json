@@ -2,32 +2,47 @@
   "name": "be-sweet-bakery",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "animate.css": "^3.5.2",
-    "classnames": "^2.2.5",
-    "normalize.css": "^7.0.0",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-grid-gallery": "^0.4.0",
-    "react-ionicons": "^1.5.7",
-    "react-router-dom": "^4.1.1",
-    "react-scripts": "1.0.10",
-    "skeleton.css": "^2.0.4"
-  },
-  "devDependencies": {
-    "firebase-tools": "^3.9.1",
-    "node-sass-chokidar": "^0.0.3",
-    "npm-run-all": "^4.0.2"
-  },
   "scripts": {
     "start": "npm-run-all -p watch:css start:js",
     "start:js": "NODE_PATH=./src react-scripts start",
     "start:build": "firebase serve",
-    "watch:css": "npm run build:css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
+    "watch:css":
+      "npm run build:css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
     "build": "npm run build:css && NODE_PATH=./src react-scripts build",
-    "build:css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
+    "build:css":
+      "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
     "deploy": "npm run build && firebase deploy",
     "test": "NODE_PATH=./src react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "browserify-css": "^0.12.0",
+    "classnames": "^2.2.5",
+    "normalize.css": "^7.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-grid-gallery": "^0.4.2",
+    "react-ionicons": "^1.5.8",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.13",
+    "skeleton.css": "^2.0.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-config-prettier": "^2.4.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-prettier": "^2.2.0",
+    "eslint-plugin-react": "^7.3.0",
+    "firebase-tools": "^3.10.1",
+    "node-sass-chokidar": "^0.0.3",
+    "npm-run-all": "^4.1.1",
+    "prettier": "^1.6.1"
   }
 }

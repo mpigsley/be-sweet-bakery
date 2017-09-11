@@ -17,3 +17,7 @@ BigImage.propTypes = {
   className: PropTypes.string,
   src: PropTypes.string.isRequired,
 };
+
+BigImage.defaultProps = {
+  className: null,
+};

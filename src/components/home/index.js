@@ -27,6 +27,7 @@ export default function Home() {
           <SubHeader>get the scoop</SubHeader>
           <form
             action="http://besweetomaha.us12.list-manage.com/subscribe/post"
+            className="alternative"
             method="POST"
           >
             <input type="hidden" name="u" value="cc995b7fe37454466cae9013d" />

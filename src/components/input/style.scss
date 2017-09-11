@@ -1,0 +1,70 @@
+@import 'styles/theme';
+
+input[type='email'].Input,
+input[type='number'].Input,
+input[type='search'].Input,
+input[type='text'].Input,
+input[type='tel'].Input,
+input[type='url'].Input,
+input[type='password'].Input,
+input[type='submit'].Input,
+textarea.Input {
+  border-radius: 0;
+
+  &::-webkit-input-placeholder {
+    color: $dark;
+    font-style: italic;
+    font-weight: 100;
+  }
+
+  &:-moz-placeholder {
+    /* Firefox 18- */
+    color: $dark;
+    font-style: italic;
+    font-weight: 100;
+  }
+
+  &::-moz-placeholder {
+    /* Firefox 19+ */
+    color: $dark;
+    font-style: italic;
+    font-weight: 100;
+  }
+
+  &:-ms-input-placeholder {
+    color: $dark;
+    font-style: italic;
+    font-weight: 100;
+  }
+}
+
+input.Input,
+input.Input:focus {
+  display: block;
+
+  &[type='submit'].button-primary {
+    background-color: $dark;
+    color: $lightest;
+    margin: 0 auto;
+    display: block;
+    border: none;
+
+    &:hover {
+      background-color: black;
+    }
+  }
+
+  &:not([type='submit']) {
+    border: 0;
+    border-bottom: 1px solid $dark;
+    outline: 0;
+  }
+}
+
+textarea.Input,
+textarea.Input:focus {
+  border: 1px solid $dark;
+  height: 18rem;
+  outline: 0;
+  resize: none;
+}

@@ -26,8 +26,11 @@ export default function Shop({ children }) {
               </Link>
             </div>
             <div className="five columns Navigation-Column">
-              <Link className="Navigation-Link" to="/shop">
-                Shop & Contact
+              <Link className="Navigation-Link" to="/order">
+                Order
+              </Link>
+              <Link className="Navigation-Link" to="/contact">
+                Contact
               </Link>
             </div>
           </div>

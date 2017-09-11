@@ -14,7 +14,7 @@ export default function Order() {
       <Section type={SectionType.light}>
         <div className="container">
           <h1>Order</h1>
-          <SubHeader>let&#39;s get in touch</SubHeader>
+          <SubHeader>our kitchen to yours</SubHeader>
           <div className="row">
             <div className="three columns">&nbsp;</div>
             <div className="six columns">

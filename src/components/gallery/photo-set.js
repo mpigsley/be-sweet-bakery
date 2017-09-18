@@ -21,14 +21,17 @@ import Grills from 'images/grills.jpg';
 import Halloween from 'images/halloween.jpg';
 import HomeSweetHome from 'images/home_sweet_home.jpg';
 import Jerseys from 'images/jerseys.jpg';
+import Logo from 'images/logo.jpg';
 import Martinis from 'images/martinis.jpg';
 import MermaidsAndSeahorses from 'images/mermaids_and_seahorses.jpg';
 import Mermaids from 'images/mermaids.jpg';
+import Nebraska from 'images/nebraska.jpg';
 import MultiFlowers from 'images/multi_flowers.jpg';
 import SpringFlowers from 'images/spring_flowers.jpg';
 import Tacos from 'images/tacos.jpg';
 import TeaCups from 'images/tea_cups.jpg';
 import TeaParty from 'images/tea_party.jpg';
+import Titleist from 'images/titleist.jpg';
 import Valentines from 'images/valentines_cookies.jpg';
 import WeddingShower from 'images/wedding_shower.jpg';
 
@@ -229,6 +232,24 @@ export default [
     src: WeddingShower,
     thumbnail: WeddingShower,
     thumbnailWidth: 600,
+    thumbnailHeight: 400,
+  },
+  {
+    src: Logo,
+    thumbnail: Logo,
+    thumbnailWidth: 300,
+    thumbnailHeight: 400,
+  },
+  {
+    src: Nebraska,
+    thumbnail: Nebraska,
+    thumbnailWidth: 500,
+    thumbnailHeight: 400,
+  },
+  {
+    src: Titleist,
+    thumbnail: Titleist,
+    thumbnailWidth: 800,
     thumbnailHeight: 400,
   },
 ];

@@ -6,7 +6,7 @@ import Section, { SectionType } from 'components/section';
 
 import valentinesCookies from 'images/valentines_cookies.jpg';
 import fallLeaves from 'images/fall_leaves.jpg';
-import halloween from 'images/halloween.jpg';
+import nebraska from 'images/nebraska_square.jpg';
 import babyShower from 'images/baby_shower_square.jpg';
 
 import './style.css';
@@ -24,8 +24,8 @@ export default function Home() {
               <h5>Fall Leaves</h5>
             </div>
             <div className="one-third column">
-              <img className="Home-Img" src={halloween} alt="featured sweet" />
-              <h5>Halloween Assorted</h5>
+              <img className="Home-Img" src={nebraska} alt="featured sweet" />
+              <h5>Sport Teams</h5>
             </div>
             <div className="one-third column">
               <img className="Home-Img" src={babyShower} alt="featured sweet" />

@@ -48,7 +48,6 @@ export default function Order() {
                       type="text"
                       name="item_description"
                       placeholder="Item Description *"
-                      value=""
                     />
                   </div>
                   <div className="three columns">
@@ -58,7 +57,6 @@ export default function Order() {
                       type="text"
                       name="item_quantity"
                       placeholder="Quantity"
-                      value=""
                     />
                   </div>
                 </div>

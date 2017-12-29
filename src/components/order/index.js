@@ -19,8 +19,8 @@ export default function Order() {
             <div className="three columns">&nbsp;</div>
             <div className="six columns">
               <Form
-                action="http://formspree.io/besweetomaha@gmail.com"
-                method="post"
+                action="https://formspree.io/besweetomaha@gmail.com"
+                method="POST"
               >
                 <Input
                   className="u-full-width"

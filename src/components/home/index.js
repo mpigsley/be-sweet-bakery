@@ -61,6 +61,42 @@ export default function Home() {
           </form>
         </div>
       </Section>
+
+      <Section type={SectionType.light}>
+        <div className="container">
+          <h1>Publications</h1>
+          <SubHeader>in the news</SubHeader>
+          <div className="row">
+            <div className="one-third column">
+              <a
+                className="Home-Publication"
+                href="https://www.discover-omaha.com/single-post/2017/11/30/Be-Sweet-Bakery"
+              >
+                <h4>Discover Omaha</h4>
+                <p>Be Sweet Bakery</p>
+              </a>
+            </div>
+            <div className="one-third column">
+              <a
+                className="Home-Publication"
+                href="https://www.keenobby.com/2018/02/14/8815/"
+              >
+                <h4>Keenobi</h4>
+                <p>That’s a Sweet Valentine’s Day!</p>
+              </a>
+            </div>
+            <div className="one-third column">
+              <a
+                className="Home-Publication"
+                href="https://www.npdodge.com/blog/2018/01/best-bakeries-omaha-satisfy-sweet-tooth/"
+              >
+                <h4>The Dodge Voice</h4>
+                <p>The 10 Best Bakeries in Omaha to Satisfy Your Sweet Tooth</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </Section>
     </div>
   );
 }

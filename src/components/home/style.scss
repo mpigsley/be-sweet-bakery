@@ -1,5 +1,27 @@
+@import 'styles/theme';
+
 .Home-Img {
   border-radius: 50%;
   padding: 10%;
   width: 80%;
+}
+
+.Home-Publication {
+  display: block;
+  margin-top: 2rem;
+  text-decoration: none;
+
+  h4 {
+    margin: 0;
+  }
+
+  * {
+    transition: color linear 0.2s;
+  }
+
+  &:hover {
+    h4,p {
+      color: $medium-font;
+    }
+  }
 }

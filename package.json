@@ -12,20 +12,21 @@
     "deploy": "npm run build && firebase deploy",
     "test": "NODE_PATH=./src react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
+    "convert": "bash ./image-converter.sh",
     "lint": "eslint .",
     "lint:fix": "eslint --fix ."
   },
   "dependencies": {
-    "animate.css": "^3.5.2",
-    "browserify-css": "^0.12.0",
+    "animate.css": "^3.6.1",
+    "browserify-css": "^0.14.0",
     "classnames": "^2.2.5",
-    "normalize.css": "^7.0.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-grid-gallery": "^0.4.2",
-    "react-ionicons": "^1.5.8",
+    "normalize.css": "^8.0.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-grid-gallery": "^0.4.8",
+    "react-ionicons": "^2.1.6",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.0.13",
+    "react-scripts": "1.0.14",
     "skeleton.css": "^2.0.4"
   },
   "devDependencies": {
@@ -38,9 +39,9 @@
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-prettier": "^2.2.0",
     "eslint-plugin-react": "^7.3.0",
-    "firebase-tools": "^3.10.1",
-    "node-sass-chokidar": "^0.0.3",
-    "npm-run-all": "^4.1.1",
-    "prettier": "^1.6.1"
+    "firebase-tools": "^3.18.4",
+    "node-sass-chokidar": "^1.2.2",
+    "npm-run-all": "^4.1.2",
+    "prettier": "^1.12.0"
   }
 }

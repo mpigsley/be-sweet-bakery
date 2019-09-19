@@ -17,12 +17,12 @@
 }
 
 .Footer-Icon {
-	fill: $medium-font;
+	stroke: $medium-font;
 	padding: 0 0.3rem;
-  transition: fill 0.4s;
+  transition: stroke 0.4s;
 
   &:hover {
-    fill: $dark-font;
+    stroke: $dark-font;
   }
 }
 

@@ -1,5 +1,7 @@
 import React from 'react';
-import Ionicon from 'react-ionicons';
+import Instagram from 'react-feather/dist/icons/instagram';
+import Facebook from 'react-feather/dist/icons/facebook';
+import Twitter from 'react-feather/dist/icons/twitter';
 
 import Logo from 'components/logo';
 import Horizontal, { HorizontalType } from 'components/horizontal';
@@ -37,32 +39,13 @@ export default function Footer() {
             <h5 className="Footer-ItemTitle">Connect</h5>
             <p className="Footer-Item">
               <Anchor href="https://www.facebook.com/besweetomaha">
-                <Ionicon
-                  className="Footer-Icon"
-                  fontSize="40px"
-                  icon="ion-social-facebook"
-                />
+                <Facebook className="Footer-Icon" size={40} />
               </Anchor>
               <Anchor href="https://twitter.com/besweetomaha">
-                <Ionicon
-                  className="Footer-Icon"
-                  fontSize="40px"
-                  icon="ion-social-twitter"
-                />
+                <Twitter className="Footer-Icon" size={40} />
               </Anchor>
               <Anchor href="https://www.instagram.com/besweetomaha/">
-                <Ionicon
-                  className="Footer-Icon"
-                  fontSize="40px"
-                  icon="ion-social-instagram"
-                />
-              </Anchor>
-              <Anchor href="https://www.etsy.com/shop/BeSweetBakeryOmaha">
-                <Ionicon
-                  className="Footer-Icon"
-                  fontSize="40px"
-                  icon="ion-bag"
-                />
+                <Instagram className="Footer-Icon" size={40} />
               </Anchor>
             </p>
           </div>
@@ -74,7 +57,7 @@ export default function Footer() {
             <span className="Footer-Spacer">·</span>
             <Anchor to="/">Privacy Policy</Anchor>
             <span className="Footer-Spacer">·</span>
-            <Anchor to="/shop">Contact</Anchor>
+            <Anchor to="/contact">Contact</Anchor>
           </div>
           <div className="two columns">
             <Logo />

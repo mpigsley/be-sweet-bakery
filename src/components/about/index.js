@@ -82,8 +82,8 @@ export default function About() {
               <p>
                 Can’t get enough of our sweets? Good news, catering and bulk
                 orders are available! Discounts may be given for large orders,
-                please <Anchor to="/shop">contact me</Anchor> to find out more
-                information! I would love to make your next event sparkle.
+                please <Anchor to="/contact">contact me</Anchor> to find out
+                more information! I would love to make your next event sparkle.
               </p>
             </div>
             <div className="one column">&nbsp;</div>

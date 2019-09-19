@@ -1,5 +1,6 @@
 import React from 'react';
 import GridGallery from 'react-grid-gallery';
+import shuffle from 'lodash/shuffle';
 
 import SubHeader from 'components/subheader';
 import Section, { SectionType } from 'components/section';
@@ -17,7 +18,7 @@ export default function Gallery() {
           <div className="Gallery-Container">
             <GridGallery
               className="Gallery-Grid"
-              images={PhotoSet}
+              images={shuffle(PhotoSet)}
               enableImageSelection={false}
             />
           </div>

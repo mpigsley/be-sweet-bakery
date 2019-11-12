@@ -4,5 +4,5 @@ The [Be Sweet Bakery](https://besweetomaha.com) website is build on top of React
 
 ### Commands
 
-`npm start` - to run the project
-`npm run deploy` to deploy to firebase
+- `npm start` - to run the project
+- `npm run deploy` to deploy to firebase

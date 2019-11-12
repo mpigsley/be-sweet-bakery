@@ -4,7 +4,7 @@ import { withRouter } from 'react-router-dom';
 
 import colorfulFlowers from 'images/colorful_flowers.jpg';
 
-import './style.css';
+import './style.scss';
 
 const Title = ({ location }) => {
   if (location.pathname !== '/') {

@@ -11,7 +11,7 @@ import Order from 'components/order';
 import Contact from 'components/contact';
 import Footer from 'components/footer';
 
-import 'app.css';
+import 'app.scss';
 
 ReactDOM.render(
   <Router>

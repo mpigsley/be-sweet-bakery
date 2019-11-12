@@ -3,12 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "npm-run-all -p watch:css start:js",
-    "start:js": "NODE_PATH=./src react-scripts start",
+    "start": "NODE_PATH=./src react-scripts start",
     "start:build": "firebase serve",
-    "watch:css": "npm run build:css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
-    "build": "npm run build:css && NODE_PATH=./src react-scripts build",
-    "build:css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
+    "build": "NODE_PATH=./src react-scripts build",
     "deploy": "npm run build && firebase deploy",
     "test": "NODE_PATH=./src react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
@@ -21,28 +18,39 @@
     "browserify-css": "^0.14.0",
     "classnames": "^2.2.5",
     "lodash": "^4.17.15",
-    "normalize.css": "^8.0.0",
-    "react": "^16.3.1",
-    "react-dom": "^16.3.1",
+    "node-sass": "^4.13.0",
+    "normalize.css": "^8.0.1",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
     "react-feather": "^2.0.3",
-    "react-grid-gallery": "^0.4.8",
-    "react-router-dom": "^4.2.2",
-    "react-scripts": "1.0.14",
+    "react-grid-gallery": "^0.5.5",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.2.0",
     "skeleton.css": "^2.0.4"
   },
   "devDependencies": {
-    "babel-eslint": "^7.2.3",
-    "eslint": "^4.6.1",
-    "eslint-config-airbnb": "^15.1.0",
-    "eslint-config-airbnb-base": "^12.0.0",
+    "babel-eslint": "10.0.3",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^2.4.0",
     "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^2.2.0",
     "eslint-plugin-react": "^7.3.0",
     "firebase-tools": "^7.3.2",
-    "node-sass-chokidar": "^1.2.2",
-    "npm-run-all": "^4.1.2",
     "prettier": "^1.12.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

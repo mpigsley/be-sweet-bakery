@@ -6,7 +6,7 @@ import SubHeader from 'components/subheader';
 import Section, { SectionType } from 'components/section';
 import PhotoSet from './photo-set';
 
-import './style.css';
+import './style.scss';
 
 export default function Gallery() {
   return (

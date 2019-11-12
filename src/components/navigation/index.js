@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import Logo from 'components/logo';
 
-import './style.css';
+import './style.scss';
 
 export default function Shop({ children }) {
   return (

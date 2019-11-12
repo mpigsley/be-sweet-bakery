@@ -4,7 +4,7 @@ import classNames from 'classnames';
 
 import Horizontal, { HorizontalType } from 'components/horizontal';
 
-import './style.css';
+import './style.scss';
 
 export default function SubHeader({ className, children }) {
   return (

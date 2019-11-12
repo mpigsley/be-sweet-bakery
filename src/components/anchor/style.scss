@@ -1,7 +1,7 @@
-@import "styles/theme";
+@import '~styles/theme';
 
 .Anchor {
-	display: inline-block;
+  display: inline-block;
   padding: 0.2rem;
   color: $medium-font;
   text-decoration: none;

@@ -7,7 +7,7 @@ import Logo from 'components/logo';
 import Horizontal, { HorizontalType } from 'components/horizontal';
 import Anchor from 'components/anchor';
 
-import './style.css';
+import './style.scss';
 
 export default function Footer() {
   return (

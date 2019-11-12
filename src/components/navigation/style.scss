@@ -1,7 +1,7 @@
-@import "styles/theme";
+@import '~styles/theme';
 
 .Navigation {
-	background-color: $light;
+  background-color: $light;
 }
 
 .Navigation-Row {
@@ -9,43 +9,43 @@
 }
 
 .Navigation-Column {
-	display: inline;
-	
-	&:first-of-type {
-		text-align: right;
-	}
+  display: inline;
+
+  &:first-of-type {
+    text-align: right;
+  }
 }
 
 .Navigation-Link {
-	color: inherit;
-	display: inline-block;
-	padding: 2rem;
-	text-align: center;
-	text-decoration: none;
-	font-size: 2rem;
-	text-transform: uppercase;
-	transition: background-color 0.3s, color 0.3s;
-	font-weight: 400;
-	vertical-align: top;
-	white-space: nowrap;
-	
-	&:hover {
-		color: $dark;
-		background-color: $medium;
-	}
+  color: inherit;
+  display: inline-block;
+  padding: 2rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2rem;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s;
+  font-weight: 400;
+  vertical-align: top;
+  white-space: nowrap;
+
+  &:hover {
+    color: $dark;
+    background-color: $medium;
+  }
 }
 
 .Navigation-Logo {
-	padding: 0rem;
+  padding: 0rem;
 }
 
 @media (max-width: 550px) {
-	.Navigation-Column,
-	.Navigation-Column:first-of-type {
-		text-align: center;
-	}
+  .Navigation-Column,
+  .Navigation-Column:first-of-type {
+    text-align: center;
+  }
 
-	.Navigation-Link {
-		padding: 1rem;
-	}
+  .Navigation-Link {
+    padding: 1rem;
+  }
 }

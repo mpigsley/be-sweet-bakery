@@ -9,7 +9,7 @@ import fallLeaves from 'images/fall_leaves.jpg';
 import nebraska from 'images/nebraska_square.jpg';
 import babyShower from 'images/baby_shower_square.jpg';
 
-import './style.css';
+import './style.scss';
 
 export default function Home() {
   return (

@@ -26,9 +26,12 @@ export default function Shop({ children }) {
               </Link>
             </div>
             <div className="five columns Navigation-Column">
-              <Link className="Navigation-Link" to="/order">
-                Order
-              </Link>
+              <a
+                className="Navigation-Link"
+                href="https://shop.besweetomaha.com"
+              >
+                Shop
+              </a>
               <Link className="Navigation-Link" to="/contact">
                 Contact
               </Link>
